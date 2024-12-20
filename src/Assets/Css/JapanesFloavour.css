@@ -1,0 +1,91 @@
+
+.japanese-flavours-container{
+    background-color:#ff5400f5;
+    display: flex;
+    justify-content: center;
+}
+.fla {
+    align-items: center;
+    padding: 3%;
+    color: white;
+  }
+  .flavours-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ffea00f5;
+  }  
+  .flavours-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .order-btn {
+    background-color:azure;
+    color: #eb2525;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .order-btn:hover {
+    background-color: #c32701;
+  }
+  .ordered-btn {
+    background-color: azure;
+    color: #eb2525;
+    border: none;
+    padding: 0.6rem 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    font-size: 13px;
+  }
+  
+  .flavours-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .flavour-img {
+    width: 100%;
+    max-width: 350px;
+    object-fit: cover;
+    transform: skewY(-3deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .flavour-img:hover {
+    transform:skewY(-3deg) scale(1.1);
+  }
+  
+  .img-1 {
+    align-self:center;
+  }
+  
+  .img-2 {
+    align-self: center;
+  }
+  
+  .img-3 {
+    align-self: center;
+  }
+  @media (max-width: 768px) {
+    .flavours-title{
+        font-size: 1.5rem;
+    }
+    .flavours-text p {
+        font-size: 0.7rem;
+      }
+      .order-btn {
+        padding: 0.3rem 0.5rem;
+      }
+  }
+
+  

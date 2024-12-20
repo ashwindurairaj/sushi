@@ -1,0 +1,62 @@
+.SpecialDish{
+    background: #ff5400f5;
+    padding: 5% 0 2% 0;
+}
+.contentDetailsUpdtJob {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10% 0;
+    position: relative;
+  
+}
+.spl-head{
+    text-align: center;
+    color: #ffea00f5;
+    font-weight: bold;
+    font-size: 45px;
+}
+.Dishes{
+    padding: 0 10%;
+      
+}
+.restarunt-name{
+    text-align: center;
+    color:#ffea00f5;
+    font-weight: bold;
+    font-size: 22px;
+   
+}
+
+.Dishes .dish-slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.dish-img {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    max-width: 350px;
+    /* gap: 50px; */
+}
+
+.updatedImgj {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+}
+
+
+@media (min-width: 768px){
+    .dish-img:hover .updatedImgj {
+        transform: scale(1.1); 
+    }
+    .dish-img:hover .dish-name {
+        opacity: 1; 
+    }
+}
